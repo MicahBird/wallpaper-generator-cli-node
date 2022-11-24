@@ -6,8 +6,14 @@ A command line implementation of [roytanck's wallpaper generator](https://github
 | ![svg example](assets/example.svg) | ![png example](assets/example.png) | ![jpeg example](assets/example.jpeg) |
 
 ## Installation
+To install `wallpaper-generator-cli` with npm, run the following command from any diretory:
+```bash
+npx wallpaper-generator-cli
+```
 
 ## Usage
+Similar to other node cli tools, you must prefix the following commands with `npx`, so a full command would look like:
+`$ npx wallpaper-generator-cli -s 3840x2160 -t svg -o ./my-epic-wallpaper.svg`
 ```
 	Usage
 	  $ wallpaper-generator-cli -o PATH -t TYPE
