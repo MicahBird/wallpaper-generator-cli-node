@@ -2,7 +2,7 @@
 A command line implementation of [roytanck's wallpaper generator](https://github.com/roytanck/wallpaper-generator). 
 ### Examples:
 | SVG                                | PNG                                | JPEG                                 |
-|------------------------------------+------------------------------------+--------------------------------------|
+|------------------------------------|------------------------------------|--------------------------------------|
 | ![svg example](assets/example.svg) | ![png example](assets/example.png) | ![jpeg example](assets/example.jpeg) |
 
 ## Installation
