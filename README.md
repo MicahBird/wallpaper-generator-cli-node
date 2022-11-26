@@ -1,5 +1,5 @@
 # wallpaper-generator-cli
-A command line implementation of [roytanck's wallpaper generator](https://github.com/roytanck/wallpaper-generator). _ [Generate a new wallpaper every time you login to your computer!](#generating-a-new-wallpaper-on-login) _
+A command line implementation of [roytanck's wallpaper generator](https://github.com/roytanck/wallpaper-generator). _[Generate a new wallpaper every time you login to your computer!](#generating-a-new-wallpaper-on-login)_
 ### Examples:
 | SVG                                | PNG                                | JPEG                                 |
 |------------------------------------|------------------------------------|--------------------------------------|
