@@ -12,7 +12,7 @@ const cli = meow(`
 	  --type, -t  Type of image to generate (jpeg|svg|png)
 	  --resolution, -r The resolution of the image in the format WIDTHxHEIGHT (Default: 1920x1080)
 	  --embed, -e URL or Path of embed image (Ex: ./my-embed-image.jpeg|https://placekitten.com/g/500/500)
-	  --embedPosition, -p Position of image in wallpaper (Default: lowerright; lowerright|upperleft)
+	  --embedPosition, -p Position of image in wallpaper in the format WIDTHxHEIGHT|lowerright|upperleft (Default: lowerright)
 
 	Examples
     # Generates a 1920x1080 wallpaper as a jpeg in ~/Pictures
@@ -52,4 +52,5 @@ const cli = meow(`
 		}
 	}
 });
+
 draw(cli.flags);
