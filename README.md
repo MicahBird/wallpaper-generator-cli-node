@@ -23,7 +23,7 @@ Similar to other node cli tools, you must prefix the following commands with `np
 	  --type, -t  Type of image to generate (jpeg|svg|png)
 	  --resolution, -r The resolution of the image in the format WIDTHxHEIGHT (Default: 1920x1080)
 	  --embed, -e URL or Path of embed image (Ex: ./my-embed-image.jpeg|https://placekitten.com/g/500/500)
-	  --embedPosition, -p Position of image in wallpaper (Default: lowerright; lowerright|upperleft)
+	  --embedPosition, -p Position of image in wallpaper in the format WIDTHxHEIGHT|lowerright|upperleft (Default: lowerright)
 
 	Examples
     # Generates a 1920x1080 wallpaper as a jpeg in ~/Pictures
@@ -65,6 +65,7 @@ Don't forget to give the project a star! Thanks again!
 
 **HUGE** thanks to [roytanck](https://github.com/roytanck) for the original program, this project would not have been possible without it!
 Thanks to [Automattic](https://github.com/Automattic/node-canvas) for a local JS canvas!
+Thanks to [sindresorhus](https://github.com/sindresorhus/meow) for meow, a simple library to help make cli tools with node!
 
 ## License
 Similar to [roytanck's wallpaper generator](https://github.com/roytanck/wallpaper-generator), this project is distributed under the GPL-3.0 licence. See `LICENSE` for more information.
