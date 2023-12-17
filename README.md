@@ -1,5 +1,5 @@
-# wallpaper-generator-cli
-A command line implementation of [roytanck's wallpaper generator](https://github.com/roytanck/wallpaper-generator). _[Generate a new wallpaper every time you login to your computer!](#generating-a-new-wallpaper-on-login)_
+# wallpaper-generator-cli-node
+A command line implementation of [roytanck's wallpaper generator](https://github.com/roytanck/wallpaper-generator). [Check out the new C++ implementation!](https://github.com/MicahBird/wallpaper-generator-cli-cpp) _[Generate a new wallpaper every time you login to your computer!](#generating-a-new-wallpaper-on-login)_
 
 ![Gif Demo](assets/wallpaper-generator-cli.gif)
 
